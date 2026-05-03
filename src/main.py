@@ -2,8 +2,8 @@ import os
 import sys
 from datetime import datetime
 
-from trending import fetch_trending
-from feishu import send_feishu_card
+from .trending import fetch_trending
+from .feishu import send_feishu_card
 
 
 def main():
